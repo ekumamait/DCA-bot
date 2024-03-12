@@ -1,6 +1,6 @@
 const qrcode = require("qrcode-terminal");
 const { Client } = require("whatsapp-web.js");
-const { openai } = require("./openai-config");
+const { openai } = require("./config");
 
 const opn = require("opn");
 
